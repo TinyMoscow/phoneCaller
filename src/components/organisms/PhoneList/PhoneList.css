@@ -1,0 +1,36 @@
+.phoneList {
+  /* background-color: #f7fafd; */
+  background-color: #c7e3ff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  width: 30%;
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-flow: row;
+}
+
+.listTitle {
+  text-align: center;
+  margin: 0;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: #c679e3;
+  border: 0;
+  border-radius: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+
+.button:hover {
+  background-color: #44ce6f;
+  transition: 0.5s;
+  cursor: pointer;
+}

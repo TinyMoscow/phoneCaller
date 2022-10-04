@@ -6,16 +6,31 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "nodemon server/server.js",
+    "prod": "npm run build && npm run server"
   },
   "dependencies": {
+    "@types/date-fns": "^2.6.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-input-mask": "^2.0.4",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
+    "@types/react-datepicker": "^4.4.2",
     "@types/react-dom": "^18.0.6",
+    "@types/react-input-mask": "^3.0.1",
+    "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^2.1.0",
+    "babel-plugin-styled-components": "^2.0.7",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
   }

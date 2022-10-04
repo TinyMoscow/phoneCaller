@@ -1,0 +1,50 @@
+.container {
+  width: 70%;
+}
+
+.formPhone {
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  height: 158px;
+  margin: 0;
+  padding: 20px;
+  padding-top: 0;
+  top: 50px;
+  left: 350px;
+  background-color: #c7e3ff;
+}
+
+.formInputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  width: 130px;
+  margin: 0;
+  margin-left: 9px;
+  margin-bottom: 20px;
+}
+
+.formClocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 1px;
+}
+
+.input__phone {
+  height: 37px;
+  width: 140px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding-left: 8px;
+}
+
+.datePicker {
+  margin: 0;
+  width: 70px;
+  cursor: pointer;
+}
+
+.button__add {
+  padding: 8px 12px;
+}

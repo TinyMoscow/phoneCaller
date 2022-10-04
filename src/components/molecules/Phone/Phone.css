@@ -1,0 +1,12 @@
+.phone {
+  text-align: center;
+  display: grid;
+  height: 30px;
+  grid-gap: 10px;
+  grid-template-columns: 20px 150px 120px 120px 70px;
+  margin-left: 20px;
+}
+
+.listItem {
+  padding-top: 6px;
+}

@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap");
+
 body {
-  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../public/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  color: #212529;
+}
+
+span {
+  color: #6084a4;
 }
